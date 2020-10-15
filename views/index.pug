@@ -1,0 +1,12 @@
+html
+  head
+    title=title
+  body
+    h1=heading
+    form(action='/api/processing', method='POST')
+      label(for='url')
+      input(type="hidden", name="_csrf", value=csrfToken)
+      input(name='url', id='url', type='text', placeholder=placeholder)
+      button(type='submit')=btnText
+
+    p=url
