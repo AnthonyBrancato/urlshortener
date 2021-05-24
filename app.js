@@ -57,5 +57,5 @@ app.use((req, res) => {
 })
 
 app.listen(8080, () => {
-  console.log('Magic shit happened here => localhost:8080');
+  console.log('Magic shit happens here => localhost:8080');
 })
